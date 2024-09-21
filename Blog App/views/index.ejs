@@ -1,0 +1,30 @@
+<%- include("partials/header.ejs") %>
+
+<form action="/create-post" method="GET">
+    <input type="submit" value="create new post">
+  </form>
+
+  <% if (locals.posts && locals.posts.length > 0){ %> 
+    <h2>Post Below</h2>
+    <% locals.posts.forEach((post, index) => { %> 
+      <div class="postBox">
+        <h3 class="postTitle"> <%= post.postTitle %>: </h3>
+        <p> <%= post.postBody %> </p>
+        
+        <form action="/delete-post" method="POST">    
+        <input type="hidden" name="ID" value="<%= post.ID %>">    
+        <button type="submit" value="ID">Delete Post</button>  
+        </form>
+
+        <form action="/edit-post" method="GET">    
+        <input type="hidden" name="ID" value="<%= post.ID %>">    
+        <button type="submit" value="ID">Edit Post</button>  
+        </form>
+        </div>
+    <% }) %>
+  <%  } else { %>
+    <h2>Post Below</h2>
+  <% } %> 
+
+
+<%- include("partials/footer.ejs") %>

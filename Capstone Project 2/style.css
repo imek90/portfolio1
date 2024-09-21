@@ -1,0 +1,137 @@
+.container1 {
+    display: block;
+}
+.container1 div div {
+    text-align: center;
+}
+.container1 div h1 {
+    margin-bottom: 0%;
+}
+.container1 .title-text {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke: 2px darkblue;
+    font-family: 'Protest Riot', sans-serif;
+    letter-spacing: 10px;
+    font-size: 6rem;
+    color: aqua;
+}
+
+.container2 {
+    display: flex; 
+    justify-content: center;   
+    margin-bottom: 150px;
+}
+
+.container2 .me-div .name {
+font-size: 4rem;
+margin-bottom: 0%;
+}
+.container2 .me-div p {
+font-size: 2.5rem;
+margin-top: 0%;
+}
+.me-div {
+    text-align: center;
+    color: rgb(6, 190, 190);
+}
+
+.me {    
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(2, 142, 142);
+}
+.container3 .skills-title{
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(6, 190, 190);
+    margin-bottom: 100px;
+}
+.subcontainer3 {
+    display: flex;
+    max-width: 800px;
+}
+.sub4 {
+    margin-top: 50px;
+    gap: 100px;
+}
+.skillspic1 {
+    height: 300px;
+    width: 300px;
+}
+.skillspic2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.container3 h3 {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.container3 p {
+    color: black;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.container3 .finalh3 {
+    margin-top: 200px;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    color: rgb(6, 190, 190);
+}
+.container3 .finalp1 {
+    color: rgb(2, 142, 142);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+.container3 .finalp2 {
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 50px;
+}
+.container3 .btn {
+    margin-bottom: 50px;
+    background-color: rgb(6, 190, 190);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+}
+.footersection {
+    background-color: rgb(6, 190, 190);
+}
+@media (max-width: 1500px){
+    .container1 .title-text {
+        position: absolute;
+        z-index: 10;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-text-stroke: 2px darkblue;
+        font-family: 'Protest Riot', sans-serif;
+        letter-spacing: 10px;
+        font-size: 2rem;
+        color: aqua;
+    }
+    
+}

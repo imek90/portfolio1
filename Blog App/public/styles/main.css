@@ -1,0 +1,58 @@
+.postBox{
+    border: 2px solid greenyellow;
+    padding: 10px;
+}
+
+.postTitle{
+    margin-bottom: 0px;
+}
+
+.headertitle{
+    text-align: center;
+}
+
+body {
+    background: #222;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+      helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    color: white;
+  }
+  
+  main {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+  }
+  
+  input {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 0;
+    font-size: 0.9rem;
+    background: #888;
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  footer {
+    /* position: absolute; */
+    margin-top: 150PX;
+    text-align: center;
+    width: 100%;
+    border: 1px solid wheat;
+    bottom: 0;
+    height: 40px;
+  }
+  

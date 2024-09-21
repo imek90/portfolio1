@@ -1,0 +1,19 @@
+<%- include("partials/header.ejs") %>
+
+<form action="/edit-post" method="POST">
+    <h2>Edit Post</h1>
+    <div>
+    <label for="postTitle" >Title</label>
+    <input type="text" name="postTitle"  id="postTitle" value="<%= locals.post.postTitle %>"> 
+    </div>
+    </br>
+    <div>
+    <label for="postBody">Post</label>
+    <input type="text" name="postBody" id="postBody" value="<%= locals.post.postBody %>" >    
+    </div> 
+    </br>
+    <input type="hidden" name="ID" value="<%= locals.post.ID %>"> 
+    <input type="submit" value="edit post">
+  </form>
+
+<%- include("partials/footer.ejs") %>
