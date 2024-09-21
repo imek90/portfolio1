@@ -1,2 +1,2 @@
 # portfolio1
-My portfolio
+This contains projects that i've completed in my webdevelopment bootcamp.
